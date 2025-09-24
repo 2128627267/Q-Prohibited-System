@@ -1,35 +1,35 @@
 {
     "format_version": 3,
-    "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
-    "tooth": "example.com/my-user/my-mod",
-    "version": "0.0.0",
+    "format_uuid": "985ddaa7-ea6a-4942-968d-3575470d9aee",
+    "tooth": "github.com/2128627267/Q-Prohibited-System",
+    "version": "0.0.1",
     "info": {
-        "name": "My Mod",
-        "description": "Description of my mod",
+        "name": "Q-Prohibited-System",
+        "description": "Detects and blocks illegal player operations.",
         "tags": [
             "platform:levilamina",
             "type:mod"
         ],
-        "avatar_url": "https://example.com/my-mod/avatar.png"
+        "avatar_url": ""
     },
     "variants": [
         {
             "label": "",
             "platform": "win-x64",
             "dependencies": {
-                "github.com/LiteLDev/LeviLamina": "Required LeviLamina version range"
+                "github.com/LiteLDev/LeviLamina": "1.3.*"
             },
             "assets": [
                 {
                     "type": "zip",
                     "urls": [
-                        "https://example.com/my-mod/assets.zip"
-                    ],
+                        "https://github.com/2128627267/Q-Prohibited-System/releases/download/0.0.1/Q-Prohibited-System.zip"
+                    ],  
                     "placements": [
                         {
                             "type": "dir",
-                            "src": "my-mod/",
-                            "dest": "plugins/my-mod/"
+                            "src": "Q-Prohibited-System/",
+                            "dest": "plugins/Q-Prohibited-System/"
                         }
                     ]
                 }
